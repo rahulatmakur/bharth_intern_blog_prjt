@@ -1,0 +1,22 @@
+{
+  "name": "markdown-blog-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "rahu aathmakur",
+  "license": "ISC",
+  "dependencies": {
+    "dompurify": "^3.0.9",
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "jsdom": "^24.0.0",
+    "marked": "^12.0.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.2.0",
+    "slugify": "^1.6.6"
+  }
+}
